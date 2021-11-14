@@ -20,7 +20,7 @@ clone https://github.com/jy222bz/boxinator.git
     - Compile the source code.
     - Open the command line.
     - Change Directory to the root folder of the frontend.
-    - Install dependencies; by running the command line: `npm start`
+    - Install dependencies; by running the command line: `npm install`
     - Run the application; by running the command line: `npm start` and it will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 5. #### Use the application:

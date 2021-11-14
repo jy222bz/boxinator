@@ -13,7 +13,7 @@ clone https://github.com/jy222bz/boxinator.git
 
 3. #### Backend:
     - Compile the source code.
-    - Insert your datasource username and datasource password in the application.properties file that is located in the source code under the folder: resources.properties.
+    - Provide your datasource username and datasource password in the application.properties file that is located in the folder resouces under the source code folder.
     - Run the backend application. The application will create the database schema automatically.
 
 4. #### Frontend:
@@ -32,7 +32,7 @@ ___
    - The solution follows the MVC pattern.
    - The AddBox View does not provide any type of blue color.
    - The Color Component can be expanded to contain a wide range of colors. 
-   - The List View can sort the information according to any of these columns: name, cost, and weight. The sorting can be in both orders; Ascending order and descending order. The latter can be achieved by clicking on the column header.
+   - The List View can sort the information according to any of these columns: name, cost, and weight. The sorting can be in both orders; Ascending order and Descending order. The latter can be achieved by clicking on the column header.
    - There are two Test Suites; one in the backend soource file and the other in the frontend source file.
    - There are DEMO images along with the solution that show the application running and demonstrating its features and results.
    

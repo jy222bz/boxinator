@@ -50,15 +50,18 @@ public class BoxController {
      *
      * @param dto the BoxDto object.
      * @return String
-     * @throws BaseException it throws exception when the provided data is invalid.
      */
     @CrossOrigin(origins = StaticData.LOCALHOST)
     @PostMapping(StaticData.ADD_PATH)
-    public String insert(@RequestBody BoxDTO dto) throws BaseException {
-        Box box = modelMapper.dtoToEntity(dto);
-        box.setCost(costCalculator.getCost(box.getCountry(), box.getWeight()));
-        boxService.saveBox(box);
-        return StaticData.SUCCESSES_GET_REQUEST_MESSAGE;
+    public String insert(@RequestBody BoxDTO dto) {
+        try {
+            Box box = modelMapper.dtoToEntity(dto);
+            box.setCost(costCalculator.getCost(box.getCountry(), box.getWeight()));
+            boxService.saveBox(box);
+            return StaticData.SUCCESSES_GET_REQUEST_MESSAGE;
+        } catch (Exception exception) {
+            return exception.getMessage();
+        }
     }
 
     /**

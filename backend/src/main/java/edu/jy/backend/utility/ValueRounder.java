@@ -1,7 +1,7 @@
 package edu.jy.backend.utility;
 
 /**
- * This rounds a double value to one decimal.
+ * This rounds a double value.
  *
  * @author Jacob Yousif
  * @version 1
@@ -16,7 +16,7 @@ public class ValueRounder {
     }
 
     /**
-     * It rounds the value to one decimal-
+     * It rounds the value.
      *
      * @param val the value.
      * @return double

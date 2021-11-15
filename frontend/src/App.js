@@ -22,6 +22,7 @@ function App() {
       <div className="App">
         <Header />
           <Switch>
+            <Route exact path='/' ><Form /></Route>
           <Route exact path='/addbox' ><Form /></Route>
           <Route exact path='/listboxes' ><ListBoxes /></Route>
             <Route path='*'><Error /></Route>

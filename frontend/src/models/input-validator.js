@@ -15,15 +15,15 @@ import BaseException from '../exceptions/base_exception';
  */
 export default function isValidInput(name, country, color, number) {
    if (!isName(name)) {
-      throw new BaseException("Error: You need to provide a valid name!");
+      throw new BaseException('Error: You need to provide a valid name!');
    }
    else if (!isName(country)) {
-      throw new BaseException("Error: You need to select a country!");
+      throw new BaseException('Error: You need to select a country!');
    }
    else if (number === null || number <= 0) {
-      throw new BaseException("Error: You need to provide a positive weight!");
+      throw new BaseException('Error: You need to provide a positive weight!');
    } else if (color === null || color.length === 0) {
-      throw new BaseException("Erorr: You need to select a colour.");
+      throw new BaseException('Erorr: You need to select a colour.');
    } else {
       return true;
    }

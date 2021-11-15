@@ -5,6 +5,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import Color from '../color/ColorComponent'
 import '../../css/master.css';
 import Service from '../../services/rest-service'
+import { connect } from "react-redux";
+import { setNewState } from "../../redux/reduceSlice";
+
+
 
 /**
  * A Form component for the add box operation.
@@ -13,6 +17,7 @@ import Service from '../../services/rest-service'
  * @class FormComponent
  * @extends {React.Component}
  */
+
 class FormComponent extends React.Component {
     constructor(props) {
         super(props)
@@ -54,6 +59,7 @@ class FormComponent extends React.Component {
             toast.success('The information was successfully inserted into the database.', { hideProgressBar: true });
             this.setState({ country: '', name: '', color: '', weight: 0 })
             this.ref.current.init()
+            this.props.setNewState(true);
         } catch (err) {
             toast.error(err.message, { hideProgressBar: true });
         }
@@ -91,5 +97,15 @@ class FormComponent extends React.Component {
         )
     }
 }
-export default FormComponent
+
+/**
+ * A function to map the the state to the props of the object.
+ *
+ * @param {*} state
+ */
+const mapStateToProps = (state) => ({
+    update: state.isNewState
+})
+
+export default connect(mapStateToProps, { setNewState })(FormComponent);
 

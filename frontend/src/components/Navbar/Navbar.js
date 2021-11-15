@@ -1,7 +1,7 @@
 
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import '../../css/master.css'
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 /**
@@ -28,7 +28,7 @@ export default function Navbar() {
     window.addEventListener('resize', changeWidth)
 
     return () => {
-        window.removeEventListener('resize', changeWidth)
+      window.removeEventListener('resize', changeWidth)
     }
 
   }, [])
@@ -37,10 +37,10 @@ export default function Navbar() {
     <nav>
       {(toggleMenu || screenWidth > 500) && (
         <ul className="list">
-        
-          <Link  to="/addbox">Add Box</Link>
-          <Link  to="/listboxes">List Of Boxes</Link>
-       </ul>
+
+          <Link to="/addbox" replace>Add Box</Link>
+          <Link to="/listboxes" replace>List Of Boxes</Link>
+        </ul>
       )}
       <button onClick={toggleNav} className="btn">Menu</button>
     </nav>

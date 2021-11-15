@@ -10,10 +10,10 @@ import '../../css/master.css'
  */
 function PageNotFound() {
   return (
-    <section className="page_not_found">
+    <div className="page_not_found">
       <h1>Code 404 - Page Not Found</h1>
       <h2 className="h">Sorry, the page you requested it does not exist.</h2>
-    </section>
+    </div>
   );
 }
 

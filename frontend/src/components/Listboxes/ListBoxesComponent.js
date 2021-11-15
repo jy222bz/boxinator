@@ -3,6 +3,9 @@ import sorter from '../../models/sort';
 import '../../css/master.css';
 import Service from '../../services/rest-service'
 import { ToastContainer, toast } from 'react-toastify';
+import { setBoxes, setSummary, setNewState } from "../../redux/reduceSlice";
+import { connect } from "react-redux";
+
 /**
  * A component for listing the boxes.
  * @author Jacob Yousif
@@ -10,6 +13,7 @@ import { ToastContainer, toast } from 'react-toastify';
  * @class List
  * @extends {React.Component}
  */
+
 class List extends React.Component {
   constructor(props) {
     super(props)
@@ -23,21 +27,32 @@ class List extends React.Component {
   sort = (col) => {
     if (this.state.boxes.length > 1) {
       var sorted = sorter(this.state.boxes, col, this.state.order)
+      this.props.setBoxes(sorted.getData())
       this.setState({ boxes: sorted.getData() })
       this.setState({ order: sorted.getNextOrder() })
     }
   }
 
   componentDidMount() {
-    Service.getAll().then((res) => {
-      this.setState({ boxes: res.data })
-    }).then(() => {
-      Service.getSummary().then((res2) => {
-        this.setState({ summary: res2.data })
-      }).catch((err) => {
-        toast.error(err.message, { hideProgressBar: true });
+    if (this.props.update) {
+      Service.getAll().then((res) => {
+        this.setState({ boxes: res.data })
+        this.props.setBoxes(res.data)
+        console.log('Actual: Get Request.')
+      }).then(() => {
+        Service.getSummary().then((res2) => {
+          this.setState({ summary: res2.data })
+          this.props.setNewState(false);
+          this.props.setSummary(res2.data)
+        }).catch((err) => {
+          toast.error(err.message, { hideProgressBar: true });
+        })
       })
-    })
+    } else {
+      this.setState({ boxes: this.props.packages })
+      this.setState({ summary: this.props.total })
+      console.log('Redux: Using the reducer to get the same data since nothing has changed..')
+    }
   }
 
   render() {
@@ -86,4 +101,15 @@ class List extends React.Component {
   }
 }
 
-export default List
+/**
+ * A function to map the the state to the props of the object.
+ *
+ * @param {*} state
+ */
+const mapStateToProps = (state) => ({
+  packages: state.value.boxes,
+  total: state.value.summary,
+  update: state.value.isNewState
+})
+
+export default connect(mapStateToProps, { setBoxes, setSummary, setNewState })(List);

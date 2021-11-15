@@ -12,7 +12,7 @@ import Data from './data';
  */
 export default function sort(data, property, order) {
   var sortedData
-  if (order === "ACS") {
+  if (order === 'ACS') {
     sortedData = [...data].sort((a, b) =>
       a[property] > b[property] ? 1 : -1
     )
@@ -21,5 +21,5 @@ export default function sort(data, property, order) {
       a[property] < b[property] ? 1 : -1
     )
   }
-  return new Data(sortedData, order === "ACS" ? "DEC" : "ACS");
+  return new Data(sortedData, order === 'ACS' ? 'DEC' : 'ACS');
 }

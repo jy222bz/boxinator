@@ -9,7 +9,7 @@
 export default class InvalidInput extends Error {
   constructor(message) {
     super(message);
-    this.name = "InputError";
+    this.name = 'InputError';
   }
 
   getMessage() {

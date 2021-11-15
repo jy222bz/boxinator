@@ -6,54 +6,44 @@ Jacob Yousif
   margin-left: 20px;
   margin-bottom: 20px;
 }
-
 h1 {
   color: linear-gradient(45deg, #9c0e9c, midnightblue);
   font-family: 'Times New Roman', Times;
   margin-bottom: 0;
 }
-
 table {
   font-family: Arial, Helvetica, sans-serif;
   width: 50%;
 }
-
 table th,
 table td {
   padding: 0.25em 0.5em;
   text-align: left;
 }
-
 .header {
   padding: 0.25em 0.5em;
   background-color: #009;
   color: #fff;
   text-align: left;
 }
-
 table th:nth-child(2),
 table td:nth-child(2) {
   text-align: left;
 }
-
 table td {
   background-color: #eee;
 }
-
 table th {
   background-color: #009;
   color: #fff;
 }
-
 .header3 {
   color: red;
 }
-
 .stra {
   border-collapse: separate;
   border-spacing: 0.25em 1em;
 }
-
 html {
   background-color: white;
   color: #000;
@@ -61,56 +51,46 @@ html {
   font-weight: 300;
   font-size: 15px;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 .color {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 /**
 * 1. Correct the line height in all browsers.
 * 2. Prevent adjustments of font size after orientation changes in iOS.
 */
 html {
   line-height: 1.15;
-
   /* 1 */
   -webkit-text-size-adjust: 100%;
-
   /* 2 */
 }
-
 .sec-main {
   padding: 10px;
 }
-
 /* Sections
-   ========================================================================== */
-
+    ========================================================================== */
 /**
- * Remove the margin in all browsers.
- */
+  * Remove the margin in all browsers.
+  */
 .line {
   margin: 0.05em 0;
 }
-
 /**
- * Render the `main` element consistently in IE.
- */
+  * Render the `main` element consistently in IE.
+  */
 main {
   display: block;
 }
-
 /**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
+  * Correct the font size and margin on `h1` elements within `section` and
+  * `article` contexts in Chrome, Firefox, and Safari.
+  */
 h1,
 h2,
 h3,
@@ -124,38 +104,31 @@ caption {
   font-family: Geneva;
   margin: 0.67em 0;
 }
-
 blockquote {
   font-style: italic;
 }
-
 .main ul,
 ol {
   padding-left: 2em;
 }
-
 dd {
   display: block;
   margin-left: 40px;
 }
-
 dd,
 dt,
 dl {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 p,
 ol {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0.67em 0;
 }
-
 .foot p {
   margin: 0;
   font-family: 'Times New Roman', Times;
 }
-
 code {
   font-family: Consolas, "courier new";
   color: crimson;
@@ -163,49 +136,39 @@ code {
   padding: 2px;
   font-size: 105%;
   font-size: 1em;
-
   /* 2 */
 }
-
 kbd {
   border-radius: 2px;
   font-size: 1em;
-
   /* 2 */
   padding: 2px;
   background-color: darkblue;
   color: white;
   border: 1px solid #000;
 }
-
 /* Grouping content
-   ========================================================================== */
-
+    ========================================================================== */
 /**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
+  * 1. Add the correct box sizing in Firefox.
+  * 2. Show the overflow in Edge and IE.
+  */
 mark {
   background-color: darkgray;
   color: white;
 }
-
 hr {
   box-sizing: content-box;
-
   /* 1 */
   height: 0;
-
   /* 1 */
   overflow: visible;
-
   /* 2 */
 }
-
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+  * 1. Correct the inheritance and scaling of font size in all browsers.
+  * 2. Correct the odd `em` font sizing in all browsers.
+  */
 pre {
   font-family: Consolas, "courier new";
   color: #b31212;
@@ -213,55 +176,45 @@ pre {
   padding: 2px;
   font-size: 105%;
   font-size: 1em;
-
   /* 2 */
 }
-
 /* Text-level semantics
-   ========================================================================== */
-
+    ========================================================================== */
 /**
- * Remove the gray background on active links in IE 10.
- */
+  * Remove the gray background on active links in IE 10.
+  */
 a {
   background-color: transparent;
 }
-
 /**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
+  * 1. Remove the bottom border in Chrome 57-
+  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+  */
 abbr[title] {
   border-bottom: none;
-
   /* 1 */
   text-decoration: underline;
-
   /* 2 */
   text-decoration: underline dotted;
-
   /* 2 */
 }
-
 /**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
+  * Add the correct font weight in Chrome, Edge, and Safari.
+  */
 b,
 strong {
   font-weight: bolder;
 }
-
 /**
- * Add the correct font size in all browsers.
- */
+  * Add the correct font size in all browsers.
+  */
 small {
   font-size: 80%;
 }
-
 /**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
+  * Prevent `sub` and `sup` elements from affecting the line height in
+  * all browsers.
+  */
 sub,
 sup {
   font-size: 75%;
@@ -269,84 +222,70 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-
 sub {
   bottom: -0.25em;
 }
-
 sup {
   top: -0.5em;
 }
-
 /* Embedded content
-   ========================================================================== */
-
+    ========================================================================== */
 /**
- * Remove the border on images inside links in IE 10.
- */
+  * Remove the border on images inside links in IE 10.
+  */
 img {
   border-style: none;
 }
-
 /* Forms
-   ========================================================================== */
-
+    ========================================================================== */
 /**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
+  * 1. Change the font styles in all browsers.
+  * 2. Remove the margin in Firefox and Safari.
+  */
 button,
 input,
 optgroup,
 select,
 textarea {
   font-family: inherit;
-
   /* 1 */
   font-size: 100%;
-
   /* 1 */
   line-height: 1.15;
-
   /* 1 */
   margin: 0;
-
   /* 2 */
 }
-
 /**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
+  * Show the overflow in IE.
+  * 1. Show the overflow in Edge.
+  */
 button,
 input {
   /* 1 */
   overflow: visible;
 }
-
 /**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
+  * Remove the inheritance of text transform in Edge, Firefox, and IE.
+  * 1. Remove the inheritance of text transform in Firefox.
+  */
 button,
 select {
   /* 1 */
   text-transform: none;
 }
-
 /**
- * Correct the inability to style clickable types in iOS and Safari.
- */
+  * Correct the inability to style clickable types in iOS and Safari.
+  */
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
-
 /**
- * Remove the inner border and padding in Firefox.
- */
+  * Remove the inner border and padding in Firefox.
+  */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -354,162 +293,134 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0;
 }
-
 /**
- * Restore the focus styles unset by the previous rule.
- */
+  * Restore the focus styles unset by the previous rule.
+  */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-
 /**
- * Correct the padding in Firefox.
- */
+  * Correct the padding in Firefox.
+  */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-
 /**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
+  * 1. Correct the text wrapping in Edge and IE.
+  * 2. Correct the color inheritance from `fieldset` elements in IE.
+  * 3. Remove the padding so developers are not caught out when they zero out
+  *    `fieldset` elements in all browsers.
+  */
 legend {
   box-sizing: border-box;
-
   /* 1 */
   color: inherit;
-
   /* 2 */
   display: table;
-
   /* 1 */
   max-width: 100%;
-
   /* 1 */
   padding: 0;
-
   /* 3 */
   white-space: normal;
-
   /* 1 */
 }
-
 /**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
+  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+  */
 progress {
   vertical-align: baseline;
 }
-
 /**
- * Remove the default vertical scrollbar in IE 10+.
- */
+  * Remove the default vertical scrollbar in IE 10+.
+  */
 textarea {
   overflow: auto;
 }
-
 /**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
+  * 1. Add the correct box sizing in IE 10.
+  * 2. Remove the padding in IE 10.
+  */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
-
   /* 1 */
   padding: 0;
-
   /* 2 */
 }
-
 /**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
+  * Correct the cursor style of increment and decrement buttons in Chrome.
+  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-
 /**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
+  * 1. Correct the odd appearance in Chrome and Safari.
+  * 2. Correct the outline style in Safari.
+  */
 [type="search"] {
   -webkit-appearance: textfield;
-
   /* 1 */
   outline-offset: -2px;
-
   /* 2 */
 }
-
 /**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
+  * Remove the inner padding in Chrome and Safari on macOS.
+  */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
 /**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
+  * 1. Correct the inability to style clickable types in iOS and Safari.
+  * 2. Change font properties to `inherit` in Safari.
+  */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-
   /* 1 */
   font: inherit;
-
   /* 2 */
 }
-
 /* Interactive
-   ========================================================================== */
-
+    ========================================================================== */
 /*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
+  * Add the correct display in Edge, IE 10+, and Firefox.
+  */
 details {
   display: block;
 }
-
 /*
- * Add the correct display in all browsers.
- */
+  * Add the correct display in all browsers.
+  */
 summary {
   display: list-item;
 }
-
 /* Misc
-   ========================================================================== */
-
+    ========================================================================== */
 /**
- * Add the correct display in IE 10+.
- */
+  * Add the correct display in IE 10+.
+  */
 template {
   display: none;
 }
-
 /**
- * Add the correct display in IE 10.
- */
+  * Add the correct display in IE 10.
+  */
 [hidden] {
   display: none;
 }
-
 .page_not_found {
   border-radius: 5px;
+  margin-top: 80px;
+  margin-left: 20px;
   width: 60%;
   background-color: #f2f2f2;
   padding: 20px;
   border-style: inset;
 }
-
 nav {
   position: fixed;
   top: 0;
@@ -517,11 +428,9 @@ nav {
   height: 50px;
   background: linear-gradient(45deg, #9c0e9c, midnightblue);
 }
-
 .btn:hover {
   background: white;
 }
-
 a {
   float: right;
   font-family: Geneva;
@@ -534,12 +443,10 @@ a {
   line-height: 10px;
   border-radius: 4px;
 }
-
 a:hover {
   text-transform: uppercase;
   color: #130f40;
 }
-
 .list {
   list-style-type: none;
   background: linear-gradient(45deg, #9c0e9c, midnightblue);
@@ -549,7 +456,6 @@ a:hover {
   align-items: center;
   position: relative;
 }
-
 .btn {
   display: none;
   position: absolute;
@@ -566,21 +472,15 @@ a:hover {
   float: left;
   border-radius: 10px;
 }
-
 @media screen and (max-width: 500px) {
   .list {
     flex-direction: column;
     height: auto;
   }
-
   .btn {
     display: block;
   }
 }
-
-/*
-Jacob Yousif
-*/
 section {
   border-radius: 5px;
   width: 60%;
@@ -588,25 +488,21 @@ section {
   padding: 20px;
   border-style: inset;
 }
-
 .label1 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
 .toast {
   border-radius: 4px;
 }
-
 .Toastify__toast--error {
   border: 1px solid #c44569;
   border-radius: 7px !important;
   background: #833471 !important;
   font-family: 'Times New Roman', Times !important;
   font-size: 15px !important;
-  font-weight: 300 !important;
+  font-weight: 300!important;
 }
-
 .Toastify__toast--error::before {
   content: url('../../src/resources/cancel.png');
   position: relative;
@@ -615,16 +511,14 @@ section {
   margin-right: 20px;
   top: 6 1px;
 }
-
 .Toastify__toast--success {
   border: 1px solid white !important;
   border-radius: 5px !important;
   background: linear-gradient(45deg, #9c0e9c, midnightblue) !important;
   font-family: 'Times New Roman', Times !important;
   font-size: 15px !important;
-  font-weight: 300 !important;
+  font-weight: 300!important;
 }
-
 .Toastify__toast--success::before {
   content: url('../../src/resources/save.png');
   position: relative;
@@ -633,7 +527,6 @@ section {
   margin-right: 20px;
   top: 6px;
 }
-
 .sec2 {
   height: 60%;
   color: #000;
@@ -643,15 +536,12 @@ section {
   margin-bottom: 30px;
   width: 40%;
 }
-
 .sec3 {
   width: 100%;
 }
-
 label {
   margin-top: 10px;
 }
-
 .color {
   margin-top: 10px;
   width: 80%;
@@ -662,54 +552,48 @@ label {
   padding-left: 8px;
   padding-right: 5px;
 }
-
 .sub-line {
   color: #000;
   padding-top: 20px;
 }
-
 input[type=text],
 select {
   width: 80%;
-  padding: 5px;
+  padding: 5px 5px;
   margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 input[type=number],
 select {
   width: 80%;
-  padding: 5px;
+  padding: 5px 5px;
   margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 input[type=color] {
   width: 100%;
-  padding: 5px;
+  padding: 5px 5px;
   margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 .select {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 input[type=submit] {
   width: 80%;
   background: linear-gradient(45deg, #9c0e9c, midnightblue);
   color: white;
-  padding: 5px;
+  padding: 5px 5px;
   margin: 2px 0;
   border: none;
   border-radius: 4px;
@@ -717,7 +601,6 @@ input[type=submit] {
   font-size: 20px;
   cursor: pointer;
 }
-
 input[type=submit]:hover {
   background: green;
 }

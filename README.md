@@ -33,6 +33,7 @@ ___
    - The AddBox View does not provide any type of blue color.
    - The Color Component can be expanded to contain a wide range of colors. 
    - The List View can sort the information according to any of these columns: name, cost, and weight. The sorting can be conducted in both orders; Ascending order and Descending order. The latter can be achieved by clicking on the header column.
+   - The Reducer is used in the following manner: the Listboxes View initially will make a Get request to get the data from the database and display it, and it will save the same date in the store. The AddBox view will update the state of the Reducer when a new insertion occurs. Subsequently, the Listboxes View will check the state; if there is no update, it will display the data stored in the store, but if there is an update, it will make a new Get request to display the latest data and update the store also. The purpose is to avoid making costly and unnecessary Get requests when necessary.
    - There are two Test Suites; one in the backend soource file and the other in the frontend source file.
    - There are DEMO images along with the solution that show the application running and demonstrating its features and results.
    

@@ -8,6 +8,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+/**
+ * A Test Suite for the CostCalculator with 100% coverage.
+ *
+ * @author Jacob Yousif
+ * @version 1
+ */
 class CostCalculatorTests {
 
     private CostCalculator sut;

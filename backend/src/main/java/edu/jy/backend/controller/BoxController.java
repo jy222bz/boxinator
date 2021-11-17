@@ -1,7 +1,6 @@
 package edu.jy.backend.controller;
 
 import edu.jy.backend.dto.BoxDTO;
-import edu.jy.backend.exceptions.BaseException;
 import edu.jy.backend.data.StaticData;
 import edu.jy.backend.models.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +10,8 @@ import edu.jy.backend.services.BoxService;
 import java.util.List;
 
 /**
- * The BoxController class is a REST api controller and responsible for and its methods handle the requests
- * and return responses according to the requests.
+ * The BoxController class is a REST api controller and its methods are responsible for
+ * handling the REST requests and the responses.
  *
  * @author Jacob Yousif
  * @version 1
@@ -22,25 +21,25 @@ import java.util.List;
 public class BoxController {
 
     /**
-     * A private field foe the box service object.
+     * A private field for the box service object.
      */
     @Autowired
     private BoxService boxService;
 
     /**
-     * A private field foe the model mapper object.
+     * A private field for the model mapper object.
      */
     @Autowired
     ModelMapper modelMapper;
 
     /**
-     * A private field foe the cost calculator object.
+     * A private field for the cost calculator object.
      */
     @Autowired
     CostCalculator costCalculator;
 
     /**
-     * A private field foe the summary handler object.
+     * A private field for the summary handler object.
      */
     @Autowired
     SummaryHandler summaryHandler;
@@ -51,7 +50,6 @@ public class BoxController {
      * @param dto the BoxDto object.
      * @return String
      */
-    @CrossOrigin(origins = StaticData.LOCALHOST)
     @PostMapping(StaticData.ADD_PATH)
     public String insert(@RequestBody BoxDTO dto) {
         try {
@@ -65,7 +63,7 @@ public class BoxController {
     }
 
     /**
-     * It handles the GET request and it retrieves all the data in the database.
+     * It handles the GET request, and it retrieves all the data in the database.
      *
      * @return List<BoxDTO> the list of objects.
      */

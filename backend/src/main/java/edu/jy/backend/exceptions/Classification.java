@@ -24,7 +24,7 @@ public enum Classification {
     /**
      * A public constructor.
      *
-     * @param desc the descritiopn.
+     * @param desc the description.
      * @param code the code.
      */
     Classification(String desc, int code) {

@@ -15,6 +15,7 @@ const reduceSlice = createSlice({
  name: 'reducer',
  initialState: {
   isNewState: true,
+  order: 'ACS',
   boxes: [],
   summary: { totalWeight: 0, totalCost: 0 }
  },
@@ -28,10 +29,13 @@ const reduceSlice = createSlice({
   setSummary: (state, action) => {
    state.summary = action.payload;
   },
+  setOrder: (state, action) => {
+   state.order = action.payload;
+  },
  },
 });
 
 
 const { actions, reducer } = reduceSlice;
-export const { setNewState, setBoxes, setSummary } = actions;
+export const { setNewState, setBoxes, setSummary, setOrder } = actions;
 export default reducer;

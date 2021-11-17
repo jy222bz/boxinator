@@ -27,7 +27,7 @@ public enum CountryMultiplier {
      * A public constructor.
      *
      * @param country    the country.
-     * @param multiplier the mutiplier.
+     * @param multiplier the multiplier.
      */
     CountryMultiplier(String country, double multiplier) {
         this.country = country;

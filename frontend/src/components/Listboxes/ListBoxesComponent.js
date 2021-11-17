@@ -43,6 +43,7 @@ class List extends React.Component {
         Service.getSummary().then((res2) => {
           this.setState({ summary: res2.data })
           this.props.setNewState(false);
+          this.props.setOrder('ACS')
           this.props.setSummary(res2.data)
           console.log('REST: Making a Get Request to fetch the latest data from the database.')
         }).catch((err) => {
@@ -52,9 +53,9 @@ class List extends React.Component {
         })
       })
     } else {
+      this.setState({ order: this.props.sortingOrder })
       this.setState({ boxes: this.props.packages })
       this.setState({ summary: this.props.total })
-      this.setState({ order: this.props.SortingOrder })
       console.log('Redux: Using the Reducer to get the stored data since nothing has changed.')
     }
   }

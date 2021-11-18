@@ -56,10 +56,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-.color {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 /**
 * 1. Correct the line height in all browsers.
 * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -489,8 +485,7 @@ section {
   border-style: inset;
 }
 .label1 {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  outline: none;
 }
 .toast {
   border-radius: 4px;
@@ -545,12 +540,8 @@ label {
 .color {
   margin-top: 10px;
   width: 80%;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  border: 3px inset;
-  border-radius: 5px;
-  padding-left: 8px;
-  padding-right: 5px;
+  display: none;
+  padding: 5px;
 }
 .sub-line {
   color: #000;

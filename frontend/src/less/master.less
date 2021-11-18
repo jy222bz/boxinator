@@ -131,11 +131,6 @@ html {
 }
 
 
-.color{
- margin-top: @10px;
- margin-bottom: @10px;
-}
-
 /**
 * 1. Correct the line height in all browsers.
 * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -726,9 +721,8 @@ section {
  }
  
  .label1{
-  margin-bottom: @10px;
-  margin-top: @10px;
- }
+    outline: none;
+}
  
  .toast{
   border-radius: 4 * @1px;
@@ -792,13 +786,8 @@ section {
  .color{
   margin-top: @10px;
   width: 0.8 * @full-size;
-  padding-top: 7 * @1px;
-  padding-bottom: 7 * @1px;
-  border: 3 * @1px @inset;
-   border-radius: @5px;
- 
-   padding-left: @8px;
-   padding-right: @5px;
+  display:@none;
+  padding: @5px;
  }
  .sub-line {
   color: @black;
@@ -861,4 +850,5 @@ section {
  input[type=submit]:hover {
   background: green;
  }
+ 
  

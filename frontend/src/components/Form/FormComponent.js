@@ -43,6 +43,15 @@ class FormComponent extends React.Component {
         this.setState({ country: val })
     }
 
+    show = () => {
+        const div = document.getElementById('color');
+        if (div.style.display === 'none') {
+            div.style.display = 'block'
+        } else {
+            div.style.display = 'none'
+        }
+    }
+
 
     onInputChage = value => {
         this.setState({
@@ -55,11 +64,14 @@ class FormComponent extends React.Component {
         try {
             isValidInput(this.state.name, this.state.country, this.state.color, this.state.weight)
             let data = { name: this.state.name.toUpperCase(), weight: this.state.weight, color: hexRgb(this.state.color, { format: "css" }), country: this.state.country.toUpperCase() }
+
             Service.post(data)
             toast.success('The information was successfully inserted into the database.', { hideProgressBar: true });
             this.setState({ country: '', name: '', color: '', weight: 0 })
             this.ref.current.init()
             this.props.setNewState(true);
+            const div = document.getElementById('color');
+            div.style.display = 'none'
         } catch (err) {
             toast.error(err.message, { hideProgressBar: true });
         }
@@ -75,8 +87,8 @@ class FormComponent extends React.Component {
                         <input data-testid='id__input__name' type="text" id="name" name="name" placeholder="name" value={this.state.name} onChange={(e) => this.setName(e.target.value)}></input><br />
                         <label data-testid='id__label__weight'>Weight:</label><br />
                         <input data-testid='id__input__weight' type="number" id="number" name="weight" placeholder="weight in KG" value={this.state.weight} onChange={(e) => this.setWeight(e.target.value)}></input><br />
-                        <label data-testid='id__label__color' className="label1">Select a colour:</label><br />
-                        <div data-testid='id__div__color' className="color">
+                        <input readOnly="readonly" className="label1" type="text" data-testid='id__label__color' id='color__label' onClick={this.show} defaultValue="Click here to Close/Show the Color Picker"></input><br />
+                        <div data-testid='id__div__color' className="color" id="color">
                             <Color ref={this.ref} onSubmit={this.init} color={this.state.color} onChange={this.onInputChage} />
                         </div ><br />
                         <div data-testid='id__div__select'  >

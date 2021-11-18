@@ -49,29 +49,67 @@ exports[`It should match snapshot 1`] = `
         value={0}
       />
       <br />
-      <label
+      <input
         className="label1"
         data-testid="id__label__color"
-      >
-        Select a colour:
-      </label>
+        defaultValue="Click here to Close/Show the Color Picker"
+        id="color__label"
+        onClick={[Function]}
+        readOnly="readonly"
+        type="text"
+      />
       <br />
       <div
         className="color"
         data-testid="id__div__color"
+        id="color"
       >
         <div
-          className="circle-picker "
+          className="github-picker "
           style={
             Object {
+              "MozBorderRadius": "4px",
+              "MozBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
+              "OBorderRadius": "4px",
+              "OBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
+              "WebkitBorderRadius": "4px",
+              "WebkitBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
+              "background": "#fff",
+              "border": "1px solid rgba(0,0,0,0.2)",
+              "borderRadius": "4px",
+              "boxShadow": "0 3px 12px rgba(0,0,0,0.15)",
               "display": "flex",
               "flexWrap": "wrap",
-              "marginBottom": -14,
-              "marginRight": -14,
-              "width": "100%",
+              "msBorderRadius": "4px",
+              "msBoxShadow": "0 3px 12px rgba(0,0,0,0.15)",
+              "padding": "5px",
+              "position": "relative",
+              "width": "60%",
             }
           }
         >
+          <div
+            style={
+              Object {
+                "border": "8px solid transparent",
+                "borderBottomColor": "rgba(0,0,0,0.15)",
+                "left": "9px",
+                "position": "absolute",
+                "top": "-16px",
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "border": "7px solid transparent",
+                "borderBottomColor": "#fff",
+                "left": "10px",
+                "position": "absolute",
+                "top": "-14px",
+              }
+            }
+          />
           <span
             onMouseOut={[Function]}
             onMouseOver={[Function]}
@@ -79,20 +117,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -105,31 +132,16 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #B80000",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #B80000",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #B80000",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #B80000",
+                      "background": "#FFB74D",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #B80000",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
                   tabIndex={0}
-                  title="#B80000"
+                  title="#FFB74D"
                 />
               </span>
             </div>
@@ -141,20 +153,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -167,150 +168,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #DB3E00",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #DB3E00",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #DB3E00",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #DB3E00",
+                      "background": "#008B02",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #DB3E00",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#DB3E00"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #FCCB00",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #FCCB00",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #FCCB00",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #FCCB00",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #FCCB00",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#FCCB00"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #008B02",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #008B02",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #008B02",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #008B02",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #008B02",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -327,20 +189,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -353,26 +204,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #EB9694",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #EB9694",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #EB9694",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #EB9694",
+                      "background": "#EB9694",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #EB9694",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -389,20 +225,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -415,26 +240,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #FAD0C3",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #FAD0C3",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #FAD0C3",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #FAD0C3",
+                      "background": "#FAD0C3",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #FAD0C3",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -451,20 +261,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -477,26 +276,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #FEF3BD",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #FEF3BD",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #FEF3BD",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #FEF3BD",
+                      "background": "#FEF3BD",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #FEF3BD",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -513,20 +297,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -539,26 +312,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #e84393",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #e84393",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #e84393",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #e84393",
+                      "background": "#e84393",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #e84393",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -575,20 +333,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -601,26 +348,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #2d3436",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #2d3436",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #2d3436",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #2d3436",
+                      "background": "#2d3436",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #2d3436",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -637,20 +369,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -663,88 +384,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #fff",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #fff",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #fff",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #fff",
+                      "background": "#C1E1C5",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #fff",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#fff"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #C1E1C5",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #C1E1C5",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #C1E1C5",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #C1E1C5",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #C1E1C5",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -761,20 +405,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -787,26 +420,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #00b894",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #00b894",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #00b894",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #00b894",
+                      "background": "#00b894",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #00b894",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -823,20 +441,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -849,26 +456,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #7f8c8d",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #7f8c8d",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #7f8c8d",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #7f8c8d",
+                      "background": "#7f8c8d",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #7f8c8d",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -885,20 +477,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -911,26 +492,47 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #006266",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #006266",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #006266",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #006266",
+                      "background": "#fff",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #006266",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
+                  title="#fff"
+                />
+              </span>
+            </div>
+          </span>
+          <span
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+          >
+            <div
+              style={
+                Object {
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <span
+                onBlur={[Function]}
+                onFocus={[Function]}
+              >
+                <div
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "background": "#006266",
+                      "cursor": "pointer",
+                      "height": "100%",
+                      "outline": "none",
+                      "position": "relative",
                       "width": "100%",
                     }
                   }
@@ -947,20 +549,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -973,26 +564,11 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #EA2027",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #EA2027",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #EA2027",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #EA2027",
+                      "background": "#EA2027",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #EA2027",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
@@ -1009,20 +585,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -1035,31 +600,16 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #FDA7DF",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #FDA7DF",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #FDA7DF",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #FDA7DF",
+                      "background": "#795548",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #FDA7DF",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
                   tabIndex={0}
-                  title="#FDA7DF"
+                  title="#795548"
                 />
               </span>
             </div>
@@ -1071,20 +621,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -1097,31 +636,16 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #44bd32",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #44bd32",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #44bd32",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #44bd32",
+                      "background": "#f44336",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #44bd32",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
                   tabIndex={0}
-                  title="#44bd32"
+                  title="#f44336"
                 />
               </span>
             </div>
@@ -1133,20 +657,9 @@ exports[`It should match snapshot 1`] = `
             <div
               style={
                 Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
+                  "fontSize": "0",
+                  "height": "25px",
+                  "width": "25px",
                 }
               }
             >
@@ -1159,403 +672,16 @@ exports[`It should match snapshot 1`] = `
                   onKeyDown={[Function]}
                   style={
                     Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #e1b12c",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #e1b12c",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #e1b12c",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #e1b12c",
+                      "background": "#e91e63",
                       "cursor": "pointer",
                       "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #e1b12c",
-                      "msTransition": "100ms box-shadow ease",
                       "outline": "none",
                       "position": "relative",
-                      "transition": "100ms box-shadow ease",
                       "width": "100%",
                     }
                   }
                   tabIndex={0}
-                  title="#e1b12c"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #aaa69d",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #aaa69d",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #aaa69d",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #aaa69d",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #aaa69d",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#aaa69d"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #218c74",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #218c74",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #218c74",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #218c74",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #218c74",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#218c74"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #ff5252",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #ff5252",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #ff5252",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #ff5252",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #ff5252",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#ff5252"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #7f8fa6",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #7f8fa6",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #7f8fa6",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #7f8fa6",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #7f8fa6",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#7f8fa6"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #BDC581",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #BDC581",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #BDC581",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #BDC581",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #BDC581",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#BDC581"
-                />
-              </span>
-            </div>
-          </span>
-          <span
-            onMouseOut={[Function]}
-            onMouseOver={[Function]}
-          >
-            <div
-              style={
-                Object {
-                  "MozTransform": "scale(1)",
-                  "MozTransition": "100ms transform ease",
-                  "OTransform": "scale(1)",
-                  "OTransition": "100ms transform ease",
-                  "WebkitTransform": "scale(1)",
-                  "WebkitTransition": "100ms transform ease",
-                  "height": 28,
-                  "marginBottom": 14,
-                  "marginRight": 14,
-                  "msTransform": "scale(1)",
-                  "msTransition": "100ms transform ease",
-                  "transform": "scale(1)",
-                  "transition": "100ms transform ease",
-                  "width": 28,
-                }
-              }
-            >
-              <span
-                onBlur={[Function]}
-                onFocus={[Function]}
-              >
-                <div
-                  onClick={[Function]}
-                  onKeyDown={[Function]}
-                  style={
-                    Object {
-                      "MozBorderRadius": "50%",
-                      "MozBoxShadow": "inset 0 0 0 15px #CAD3C8",
-                      "MozTransition": "100ms box-shadow ease",
-                      "OBorderRadius": "50%",
-                      "OBoxShadow": "inset 0 0 0 15px #CAD3C8",
-                      "OTransition": "100ms box-shadow ease",
-                      "WebkitBorderRadius": "50%",
-                      "WebkitBoxShadow": "inset 0 0 0 15px #CAD3C8",
-                      "WebkitTransition": "100ms box-shadow ease",
-                      "background": "transparent",
-                      "borderRadius": "50%",
-                      "boxShadow": "inset 0 0 0 15px #CAD3C8",
-                      "cursor": "pointer",
-                      "height": "100%",
-                      "msBorderRadius": "50%",
-                      "msBoxShadow": "inset 0 0 0 15px #CAD3C8",
-                      "msTransition": "100ms box-shadow ease",
-                      "outline": "none",
-                      "position": "relative",
-                      "transition": "100ms box-shadow ease",
-                      "width": "100%",
-                    }
-                  }
-                  tabIndex={0}
-                  title="#CAD3C8"
+                  title="#e91e63"
                 />
               </span>
             </div>

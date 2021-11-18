@@ -78,7 +78,7 @@ class List extends React.Component {
               <tr className="tr" key={info.id}>
                 <td >{info.name}</td>
                 <td >{info.cost} SEK</td>
-                <td style={{ backgroundColor: info.color }}></td>
+                <td style={{ backgroundColor: info.color.replace(/\s\s/g, ',') }}></td>
                 <td >{info.weight} KG</td>
               </tr>
             ))}

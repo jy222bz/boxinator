@@ -7,7 +7,7 @@ import '../../css/master.css';
 import Service from '../../services/rest-service'
 import { connect } from "react-redux";
 import { setNewState } from "../../redux/reduceSlice";
-
+import hexRgb from 'hex-rgb';
 
 
 /**
@@ -54,7 +54,7 @@ class FormComponent extends React.Component {
         e.preventDefault();
         try {
             isValidInput(this.state.name, this.state.country, this.state.color, this.state.weight)
-            let data = { name: this.state.name.toUpperCase(), weight: this.state.weight, color: this.state.color, country: this.state.country.toUpperCase() }
+            let data = { name: this.state.name.toUpperCase(), weight: this.state.weight, color: hexRgb(this.state.color, { format: "css" }), country: this.state.country.toUpperCase() }
             Service.post(data)
             toast.success('The information was successfully inserted into the database.', { hideProgressBar: true });
             this.setState({ country: '', name: '', color: '', weight: 0 })

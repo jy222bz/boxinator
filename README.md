@@ -25,19 +25,23 @@ clone https://github.com/jy222bz/boxinator.git
 
 5. #### Use the application:
   -  At this stage, the applications should be up and running.
-___
 
-6. #### Further Information:
+6. #### Test Suite in the frontend:
+    - To run the test, run the command line `npm run test`
+
+7. #### Test Suite in the backend:
+    - To run the test, run the class `CostCalculatorTests` that contains the tests, which is located in the Test Folder.
+
+8. #### Further Information:
    - The solution is documented according to the conventions.
    - The solution follows the MVC pattern.
    - The AddBox View does not provide any type of blue color.
    - The Color Component can be expanded to contain a wide range of colors. 
    - The List View can sort the information according to any of these columns: name, cost, and weight. The sorting can be conducted in both orders; Ascending order and Descending order. The latter can be achieved by clicking on the header column.
-   - The Reducer is used in the following manner: the Listboxes View initially will make a Get request to get the data from the database and display it, and it will save the same date in the store. The AddBox view will update the state of the Reducer when a new insertion occurs. Subsequently, the Listboxes View will check the state; if there is no update, it will display the data stored in the store, but if there is an update, it will make a new Get request to display the latest data and update the store also. The purpose is to avoid making costly and unnecessary Get requests when necessary.
-   - There are two Test Suites; one in the backend soource file and the other in the frontend source file.
+   - Redux is used in the following manner: the Listboxes View initially will make a Get request to get the data from the database and display it, and it will save the date in the store. The AddBox View will update the state of the Reducer when a new insertion occurs. Subsequently, the Listboxes View will check the state; if there is no update, it will display the data stored in the store, but if there is an update, it will make a new Get request to display the latest data and update the store also. The purpose is to avoid making costly and unnecessary Get requests when possible.
    - There are DEMO images along with the solution that show the application running and demonstrating its features and results.
    
-7. #### DEMO:
+9. #### DEMO:
    - The AddBox View that supports a hashed URL and it does not provide any blue colors. 
    ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/addbox.png)
    - The Add Box View: invalid input is provided and a toast message is shown displaying the source of error, for a brief amount of time. 

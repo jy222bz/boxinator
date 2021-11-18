@@ -24,7 +24,7 @@ clone https://github.com/jy222bz/boxinator.git
     - Run the application; by running the command line: `npm start` and it will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 5. #### Use the application:
-  -  At this stage, the applications should be up and running.
+    -  At this stage, the applications should be up and running.
 
 6. #### Test Suite in the frontend:
     - To run the test, run the command line `npm run test`

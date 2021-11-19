@@ -11,7 +11,7 @@ import hexRgb from 'hex-rgb';
 
 
 /**
- * A Form component for the add box operation.
+ * A Form component for the add box view.
  * @author Jacob Yousif
  *
  * @class FormComponent

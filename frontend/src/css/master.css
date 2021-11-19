@@ -484,9 +484,6 @@ section {
   padding: 20px;
   border-style: inset;
 }
-.label1 {
-  outline: none;
-}
 .toast {
   border-radius: 4px;
 }
@@ -537,10 +534,10 @@ section {
 label {
   margin-top: 10px;
 }
-.color {
+.color__div {
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 80%;
-  display: none;
   padding: 5px;
 }
 .sub-line {
@@ -589,6 +586,7 @@ input[type=submit] {
   color: white;
   padding: 5px 5px;
   margin: 2px 0;
+  margin-bottom: 20px;
   border: none;
   border-radius: 4px;
   font-family: serif;

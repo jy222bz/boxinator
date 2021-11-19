@@ -55,18 +55,17 @@ class FormComponent extends React.Component {
     }
 
     onSubmit = (event) => {
-        event.preventDefault();
+        event.preventDefault()
         try {
             isValidInput(this.state.name, this.state.country, this.state.color, this.state.weight)
-            let data = { name: this.state.name.toUpperCase(), weight: this.state.weight, color: hexRgb(this.state.color, { format: "css" }), country: this.state.country.toUpperCase() }
+            let data = { name: this.state.name.toUpperCase(), weight: this.state.weight, color: hexRgb(this.state.color, { format: 'css' }), country: this.state.country.toUpperCase() }
             Service.post(data)
-            toast.success('The information was successfully inserted into the database.', { hideProgressBar: true });
+            toast.success('The information was successfully inserted into the database.', { hideProgressBar: true })
             this.setState({ country: '', name: '', color: '', weight: 0 })
-
-            this.props.setNewState(true);
+            this.props.setNewState(true)
             this.setState({ show: false })
         } catch (err) {
-            toast.error(err.message, { hideProgressBar: true });
+            toast.error(err.message, { hideProgressBar: true })
         }
     }
 
@@ -117,5 +116,5 @@ const mapStateToProps = (state) => ({
     update: state.isNewState
 })
 
-export default connect(mapStateToProps, { setNewState })(FormComponent);
+export default connect(mapStateToProps, { setNewState })(FormComponent)
 

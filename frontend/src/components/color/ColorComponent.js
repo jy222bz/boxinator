@@ -10,7 +10,7 @@ import { TwitterPicker as ColorPicker } from 'react-color'
 class ColorComponent extends React.Component {
 
   handleChangeComplete = (color) => {
-    this.props.onChange(color);
+    this.props.onChange(color)
   }
 
   render() {

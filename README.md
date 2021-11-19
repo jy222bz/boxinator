@@ -43,19 +43,23 @@ clone https://github.com/jy222bz/boxinator.git
    
 9. #### DEMO:
    - The AddBox View that supports a hashed URL and it does not provide any blue colors. 
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/addbox.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/addbox.png)
+   - The Add Box View: showing the color picker (No Blue Color At ALL). 
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/addbox-show-color.png)
    - The Add Box View: invalid input is provided and a toast message is shown displaying the source of error, for a brief amount of time. 
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/toast-message-when-the-weight-is-neg.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/addbox-invalid-name.png)
+   - The Add Box View: another invalid input is provided and a toast message is shown displaying the source of error, for a brief amount of time. 
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/addbox-invalid-weight.png)
     - The Add Box View: a successful insertion and a toast message is shown for a brief amount of time.
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/toast-message-in-insertion.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/addbox-insertion.png)
    - The List Boxes View: is displaying the results and it supports a hashed URL also. 
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/listofboxes.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/listboxes.png)
    - The List Boxes View: sorting the result after the name in an ascending order. The same principle can be applied to weight and cost.
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/listofboxes-sorting-names-in-acs.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/listboxes-sorting-names-acs.png)
    - The List Boxes View: sorting the result after the name in an descending order. The same principle can be applied to weight and cost.
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/listofboxes-sorting-names-in-des.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/listboxes-sorting-names-desc.png)
    - The Database schema. 
-   ![image info](https://github.com/jy222bz/boxinator/blob/master/DemoImages/db.png)
+   ![image info](https://github.com/jy222bz/boxinator/blob/master/demo/db.png)
 
 ### Information:
 Author: Jacob Yousif <br>

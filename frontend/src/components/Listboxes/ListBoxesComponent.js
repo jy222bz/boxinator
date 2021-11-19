@@ -36,6 +36,7 @@ class List extends React.Component {
 
   componentDidMount() {
     if (this.props.isNewState) {
+      this.props.setOrder('ACS')
       Service.getAll().then((res) => {
         this.setState({ boxes: res.data })
         this.props.setBoxes(res.data)
@@ -43,12 +44,10 @@ class List extends React.Component {
         Service.getSummary().then((res2) => {
           this.setState({ summary: res2.data })
           this.props.setNewState(false);
-          this.props.setOrder('ACS')
           this.props.setSummary(res2.data)
           console.log('REST: Making a Get Request to fetch the latest data from the database.')
         }).catch((err) => {
           this.props.setNewState(true);
-          this.props.setOrder('ACS')
           toast.error(err.message, { hideProgressBar: true });
         })
       })
@@ -56,7 +55,7 @@ class List extends React.Component {
       this.setState({ order: this.props.sortingOrder })
       this.setState({ boxes: this.props.packages })
       this.setState({ summary: this.props.total })
-      console.log('Redux: Using the Reducer to get the stored data since nothing has changed.')
+      console.log('Redux: Using the Reducer to get the stored data because nothing has changed.')
     }
   }
 

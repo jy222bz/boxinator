@@ -37,7 +37,6 @@ export default function Navbar() {
     <nav>
       {(toggleMenu || screenWidth > 500) && (
         <ul className="list">
-
           <Link to="/addbox" replace>Add Box</Link>
           <Link to="/listboxes" replace>List Of Boxes</Link>
         </ul>

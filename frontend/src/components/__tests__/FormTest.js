@@ -101,14 +101,6 @@ test('It should have a div for the select.', () => {
  expect(sut).toBeInTheDocument();
 });
 
-test('It should have a div for the color picker', () => {
- render(<Provider store={store}>
-  <FormComponent />
- </Provider>);
- const sut = screen.getByTestId('id__div__color')
- expect(sut).toBeInTheDocument();
-});
-
 test('It should have an input for the name.', () => {
  render(<Provider store={store}>
   <FormComponent />

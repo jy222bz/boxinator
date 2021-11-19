@@ -24,20 +24,20 @@ clone https://github.com/jy222bz/boxinator.git
     - Run the application; by running the command line: `npm start` and it will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 5. #### Use the application:
-    -  At this stage, the applications should be up and running.
+    -  At this stage, the applications should be up and running. Thus, you can utilize the features of the application.
 
 6. #### Test Suite in the frontend:
     - To run the test, run the command line `npm run test`
 
 7. #### Test Suite in the backend:
-    - To run the test, run the class `CostCalculatorTests` that contains the tests, which is located in the Test Folder.
+    - To run the test, run the class `CostCalculatorTests` to execute the tests, the file is located in the Test Folder.
 
 8. #### Further Information:
    - The solution is documented according to the conventions.
    - The solution follows the MVC pattern.
    - The AddBox View does not provide any type of blue color.
    - The Color Component can be expanded to contain a wide range of colors. 
-   - The List View can sort the information according to any of these columns: name, cost, and weight. The sorting can be conducted in both orders; Ascending order and Descending order. The latter can be achieved by clicking on the header column.
+   - The List View can sort the information according to any of these params: name, cost, and weight. The sorting can be conducted in both orders; Ascending order and Descending order. The latter can be achieved by clicking on the header column.
    - Redux is used in the following manner: the Listboxes View initially will make a Get request to get the data from the database and display it, and it will save the date in the store. The AddBox View will update the state of the Reducer when a new insertion occurs. Subsequently, the Listboxes View will check the state; if there is no update, it will display the data stored in the store, but if there is an update, it will make a new Get request to display the latest data and update the store also. The purpose is to avoid making costly and unnecessary Get requests when possible.
    - There are DEMO images along with the solution that show the application running and demonstrating its features and results.
    

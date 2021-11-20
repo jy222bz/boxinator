@@ -7,7 +7,6 @@ import axios from 'axios'
  */
 const POST_REST_API_URL = 'http://localhost:8080/addbox'
 const GET_REST_API_URL = 'http://localhost:8080/listboxes'
-const GET_SUMMARY_REST_API_URL = 'http://localhost:8080/summary'
 
 /**
  * A service class for REST api requests: GET and POST.
@@ -22,10 +21,6 @@ class RestService {
 
 	getAll() {
 		return axios.get(GET_REST_API_URL)
-	}
-
-	getSummary() {
-		return axios.get(GET_SUMMARY_REST_API_URL)
 	}
 }
 

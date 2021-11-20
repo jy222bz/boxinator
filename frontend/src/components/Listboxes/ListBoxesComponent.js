@@ -10,6 +10,7 @@ import {
 	setOrder,
 } from '../../redux/reduceSlice'
 import { connect } from 'react-redux'
+import computeTotal from '../../models/compute-summary'
 
 /**
  * A component for listing the boxes.
@@ -46,21 +47,17 @@ class List extends React.Component {
 				.then((res) => {
 					this.setState({ boxes: res.data })
 					this.props.setBoxes(res.data)
+					const total = computeTotal(this.state.boxes)
+					this.setState({ summary: total })
+					this.props.setNewState(false)
+					this.props.setSummary(total)
+					console.log(
+						'REST: Making a Get Request to fetch the latest data from the database.'
+					)
 				})
-				.then(() => {
-					Service.getSummary()
-						.then((res2) => {
-							this.setState({ summary: res2.data })
-							this.props.setNewState(false)
-							this.props.setSummary(res2.data)
-							console.log(
-								'REST: Making a Get Request to fetch the latest data from the database.'
-							)
-						})
-						.catch((err) => {
-							this.props.setNewState(true)
-							toast.error(err.message, { hideProgressBar: true })
-						})
+				.catch((err) => {
+					this.props.setNewState(true)
+					toast.error(err.message, { hideProgressBar: true })
 				})
 		} else {
 			this.setState({ order: this.props.sortingOrder })

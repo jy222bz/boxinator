@@ -71,14 +71,4 @@ public class BoxController {
     public List<BoxDTO> getAll() {
         return modelMapper.entityToDto(boxService.getAll());
     }
-
-    /**
-     * It returns summary of; the total cost and the total shipping weight.
-     *
-     * @return Summary
-     */
-    @GetMapping(value = StaticData.SUMMARY_PATH)
-    public Summary getSummary() {
-        return summaryHandler.getSummary(boxService.getAll());
-    }
 }

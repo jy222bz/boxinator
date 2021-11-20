@@ -5,7 +5,7 @@ import sliceReducer from './reduceSlice'
  *  Making a store for the reducer.
  *
  * @author Jacob Yousif
- *  @type {*}
+ * @type {*}
  */
 const reducer = combineReducers({
 	value: sliceReducer,

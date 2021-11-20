@@ -1,5 +1,5 @@
 import isName from './name-validator'
-import BaseException from '../exceptions/base_exception'
+import BaseException from '../exceptions/base-exception'
 /**
  * A function that validates the user input.
  * It @thrwo BaseException if the input is not valid.

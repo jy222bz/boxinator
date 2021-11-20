@@ -1,19 +1,18 @@
-import { combineReducers, createStore } from "@reduxjs/toolkit";
-import sliceReducer from "./reduceSlice";
+import { combineReducers, createStore } from '@reduxjs/toolkit'
+import sliceReducer from './reduceSlice'
 
 /**
  *  Making a store for the reducer.
- * 
+ *
  * @author Jacob Yousif
- * 
- *  @type {*} 
- * 
+ *
+ *  @type {*}
+ *
  */
 const reducer = combineReducers({
- value: sliceReducer
-});
+	value: sliceReducer,
+})
 
+const store = createStore(reducer)
 
-const store = createStore(reducer);
-
-export default store;
+export default store

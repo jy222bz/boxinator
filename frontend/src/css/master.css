@@ -8,7 +8,7 @@ Jacob Yousif
 }
 h1 {
   color: linear-gradient(45deg, #9c0e9c, midnightblue);
-  font-family: 'Times New Roman', Times;
+  font-family: "Times New Roman", Times;
   margin-bottom: 0;
 }
 table {
@@ -114,16 +114,16 @@ dd {
 dd,
 dt,
 dl {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 p,
 ol {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 0.67em 0;
 }
 .foot p {
   margin: 0;
-  font-family: 'Times New Roman', Times;
+  font-family: "Times New Roman", Times;
 }
 code {
   font-family: Consolas, "courier new";
@@ -491,12 +491,12 @@ section {
   border: 1px solid #c44569;
   border-radius: 7px !important;
   background: #833471 !important;
-  font-family: 'Times New Roman', Times !important;
+  font-family: "Times New Roman", Times !important;
   font-size: 15px !important;
-  font-weight: 300!important;
+  font-weight: 300 !important;
 }
 .Toastify__toast--error::before {
-  content: url('../../src/resources/cancel.png');
+  content: url("../../src/resources/cancel.png");
   position: relative;
   z-index: 100000;
   left: 5px;
@@ -507,12 +507,12 @@ section {
   border: 1px solid white !important;
   border-radius: 5px !important;
   background: linear-gradient(45deg, #9c0e9c, midnightblue) !important;
-  font-family: 'Times New Roman', Times !important;
+  font-family: "Times New Roman", Times !important;
   font-size: 15px !important;
-  font-weight: 300!important;
+  font-weight: 300 !important;
 }
 .Toastify__toast--success::before {
-  content: url('../../src/resources/save.png');
+  content: url("../../src/resources/save.png");
   position: relative;
   z-index: 100000;
   left: 5px;
@@ -522,7 +522,7 @@ section {
 .sec2 {
   height: 30%;
   color: #000;
-  font-family: 'PT Serif', 'sans-serif';
+  font-family: "PT Serif", "sans-serif";
   margin-left: 30px;
   margin-top: 60px;
   margin-bottom: 30px;
@@ -535,16 +535,13 @@ label {
   margin-top: 10px;
 }
 .color__div {
-  margin-top: 10px;
-  margin-bottom: 10px;
   width: 80%;
-  padding: 5px;
 }
 .sub-line {
   color: #000;
   padding-top: 20px;
 }
-input[type=text],
+input[type="text"],
 select {
   width: 80%;
   padding: 5px 5px;
@@ -554,7 +551,7 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type=number],
+input[type="number"],
 select {
   width: 80%;
   padding: 5px 5px;
@@ -568,7 +565,7 @@ select {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-input[type=submit] {
+input[type="submit"] {
   width: 80%;
   background: linear-gradient(45deg, #9c0e9c, midnightblue);
   color: white;
@@ -593,7 +590,7 @@ input[type=submit] {
   font-size: 15px;
   cursor: pointer;
 }
-input[type=submit] {
+input[type="submit"] {
   width: 80%;
   background: linear-gradient(45deg, #9c0e9c, midnightblue);
   color: white;
@@ -605,6 +602,6 @@ input[type=submit] {
   font-size: 20px;
   cursor: pointer;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background: green;
 }

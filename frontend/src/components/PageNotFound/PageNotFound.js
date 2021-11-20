@@ -1,4 +1,3 @@
-
 import React from 'react'
 import '../../css/master.css'
 
@@ -9,12 +8,12 @@ import '../../css/master.css'
  * @return {*}
  */
 function PageNotFound() {
-  return (
-    <div className="page_not_found">
-      <h1>Code 404 - Page Not Found</h1>
-      <h2 className="h">Sorry, the page you requested it does not exist.</h2>
-    </div>
-  );
+	return (
+		<div className='page_not_found'>
+			<h1>Code 404 - Page Not Found</h1>
+			<h2 className='h'>Sorry, the page you requested it does not exist.</h2>
+		</div>
+	)
 }
 
-export default PageNotFound;
+export default PageNotFound

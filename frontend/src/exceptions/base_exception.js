@@ -7,12 +7,12 @@
  * @extends {Error}
  */
 export default class InvalidInput extends Error {
-  constructor(message) {
-    super(message);
-    this.name = 'InputError';
-  }
+	constructor(message) {
+		super(message)
+		this.name = 'InputError'
+	}
 
-  getMessage() {
-    return this.message;
-  }
+	getMessage() {
+		return this.message
+	}
 }

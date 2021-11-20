@@ -16,18 +16,17 @@ const GET_SUMMARY_REST_API_URL = 'http://localhost:8080/summary'
  * @class RestService
  */
 class RestService {
+	post(data) {
+		return axios.post(POST_REST_API_URL, data)
+	}
 
- post(data) {
-  return axios.post(POST_REST_API_URL, data)
- }
+	getAll() {
+		return axios.get(GET_REST_API_URL)
+	}
 
- getAll() {
-  return axios.get(GET_REST_API_URL);
- }
-
- getSummary() {
-  return axios.get(GET_SUMMARY_REST_API_URL);
- }
+	getSummary() {
+		return axios.get(GET_SUMMARY_REST_API_URL)
+	}
 }
 
 export default new RestService()

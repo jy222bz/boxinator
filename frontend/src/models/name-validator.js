@@ -10,11 +10,11 @@
  * @returns {boolean} whether it is a name.
  */
 export default function isName(someName) {
-  if (someName === '' || someName === null) {
-    return false
-  } else if (someName.length < 2 || /[^a-zA-Z\s]/.test(someName)) {
-    return false
-  } else {
-    return true
-  }
+	if (someName === '' || someName === null) {
+		return false
+	} else if (someName.length < 2 || /[^a-zA-Z\s]/.test(someName)) {
+		return false
+	} else {
+		return true
+	}
 }

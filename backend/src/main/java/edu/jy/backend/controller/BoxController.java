@@ -39,12 +39,6 @@ public class BoxController {
     CostCalculator costCalculator;
 
     /**
-     * A private field for the summary handler object.
-     */
-    @Autowired
-    SummaryHandler summaryHandler;
-
-    /**
      * It handles the POST requests and inserts the input into the database.
      *
      * @param dto the BoxDto object.

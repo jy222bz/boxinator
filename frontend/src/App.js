@@ -9,9 +9,9 @@ import store from '../src/redux/store'
 
 /**
  * The entry point to the APP.
- * @author Jacob Yousif
  *
- * @return {*}
+ * @author Jacob Yousif
+ * @returns {object} The App Compnent.
  */
 function App() {
 	return (

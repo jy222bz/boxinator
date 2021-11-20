@@ -5,10 +5,9 @@ import { Link } from 'react-router-dom'
 /**
  * A function that returns the Navbar component.
  *
- * @export {<Navbar/>}
- * @return {*}
+ * @returns {object} it returns the Nvabar component.
  */
-export default function Navbar() {
+function Navbar() {
 	const [toggleMenu, setToggleMenu] = useState(false)
 	const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
@@ -46,3 +45,5 @@ export default function Navbar() {
 		</nav>
 	)
 }
+
+export default Navbar

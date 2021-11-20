@@ -5,11 +5,13 @@
     },
     "extends": [
         "react-app",
-        "prettier"
+        "prettier",
+        "plugin:jsdoc/recommended"
     ],
     "plugins": [
         "react",
-        "prettier"
+        "prettier",
+        "jsdoc"
     ],
     "parserOptions": {
         "ecmaVersion": 2018
@@ -24,7 +26,25 @@
                 "jsxSingleQuote": true,
                 "singleQuote": true,
                 "useTabs": true,
-                "endOfLine": "auto"
+                "endOfLine": "auto",
+                "no-unexpected-multiline": "error",
+                "no-confusing-arrow": [
+                    "error",
+                    {
+                        "allowParens": false
+                    }
+                ],
+                "no-mixed-operators": "error",
+                "beforeBlockComment": true,
+                "afterBlockComment": true,
+                "beforeLineComment": true,
+                "afterLineComment": true,
+                "allowBlockStart": true,
+                "allowBlockEnd": true,
+                "allowObjectStart": true,
+                "allowObjectEnd": true,
+                "allowArrayStart": true,
+                "allowArrayEnd": true
             }
         ]
     }

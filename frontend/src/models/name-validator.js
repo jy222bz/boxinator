@@ -9,7 +9,7 @@
  * @param {string} someName the input.
  * @returns {boolean} whether it is a name.
  */
-export default function isName(someName) {
+function isName(someName) {
 	if (someName === '' || someName === null) {
 		return false
 	} else if (someName.length < 2 || /[^a-zA-Z\s]/.test(someName)) {
@@ -18,3 +18,5 @@ export default function isName(someName) {
 		return true
 	}
 }
+
+export default isName

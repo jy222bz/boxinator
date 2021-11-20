@@ -13,10 +13,10 @@ import { connect } from 'react-redux'
 
 /**
  * A component for listing the boxes.
- * @author Jacob Yousif
  *
+ * @author Jacob Yousif
  * @class List
- * @extends {React.Component}
+ * @augments {React.Component}
  */
 
 class List extends React.Component {
@@ -159,7 +159,8 @@ class List extends React.Component {
 /**
  * A function to map the the state to the props of the object.
  *
- * @param {*} state
+ * @param {object} state the current state.
+ * @returns {void}
  */
 const mapStateToProps = (state) => ({
 	packages: state.value.boxes,

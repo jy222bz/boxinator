@@ -7,9 +7,7 @@ import { createSlice } from '@reduxjs/toolkit'
  *  to avoid making unnecessary Get requests that affects the performance.
  *
  * @author Jacob Yousif
- *
  *  @type {*}
- *
  */
 const reduceSlice = createSlice({
 	name: 'reducer',

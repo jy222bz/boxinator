@@ -1,12 +1,11 @@
 /**
  * A Base Exception class.
- * @author Jacob Yousif
  *
- * @export BaseEception
+ * @author Jacob Yousif
  * @class InvalidInput
- * @extends {Error}
+ * @augments {Error}
  */
-export default class InvalidInput extends Error {
+class InvalidInput extends Error {
 	constructor(message) {
 		super(message)
 		this.name = 'InputError'
@@ -16,3 +15,5 @@ export default class InvalidInput extends Error {
 		return this.message
 	}
 }
+
+export default InvalidInput

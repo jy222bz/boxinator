@@ -5,15 +5,13 @@ import BaseException from '../exceptions/base_exception'
  * It @thrwo BaseException if the input is not valid.
  *
  * @author Jacob Yousif
- *
- * @export isValidInput
  * @param {string} name the name of receiver.
  * @param {string} country the name of the country.
  * @param {string} color the color of the box.
  * @param {number} number the weight of the box.
- * @return {boolean}
+ * @returns {boolean} whether valid or invalid input.
  */
-export default function isValidInput(name, country, color, number) {
+function isValidInput(name, country, color, number) {
 	if (!isName(name)) {
 		throw new BaseException('Error: You need to provide a valid name!')
 	} else if (!isName(country)) {
@@ -26,3 +24,5 @@ export default function isValidInput(name, country, color, number) {
 		return true
 	}
 }
+
+export default isValidInput

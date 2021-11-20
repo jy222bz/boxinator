@@ -8,8 +8,8 @@ import renderer from 'react-test-renderer'
 
 /**
  * A Teste Suit.
- * @author Jacob Yousif
  *
+ * @author Jacob Yousif
  */
 
 afterEach(() => {

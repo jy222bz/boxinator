@@ -2,10 +2,10 @@ import React from 'react'
 import { TwitterPicker as ColorPicker } from 'react-color'
 /**
  * This class for the custome Color Picker.
- * @author Jacob Yousif
  *
+ * @author Jacob Yousif
  * @class ColorComponent
- * @extends {React.Component}
+ * @augments {React.Component}
  */
 class ColorComponent extends React.Component {
 	handleChangeComplete = (color) => {

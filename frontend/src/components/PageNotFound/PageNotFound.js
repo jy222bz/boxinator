@@ -3,9 +3,9 @@ import '../../css/master.css'
 
 /**
  * A function returns a div; it is related to the Page Not Found.
- * @author Jacob Yousif
  *
- * @return {*}
+ * @author Jacob Yousif
+ * @returns {object} it returns a div element.
  */
 function PageNotFound() {
 	return (

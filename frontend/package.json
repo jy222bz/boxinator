@@ -2,7 +2,17 @@
   "name": "boxinator",
   "version": "0.1.0",
   "author": "Jacob Yousif",
-  "keywords": ["React", "JavaScript", "css", "REST Api", "less", "HTML", "eslint", "Prettier", "Redux"],
+  "keywords": [
+    "React",
+    "JavaScript",
+    "css",
+    "REST Api",
+    "less",
+    "HTML",
+    "eslint",
+    "Prettier",
+    "Redux"
+  ],
   "private": true,
   "repository": {
     "type": "git",
@@ -30,6 +40,7 @@
     "react-test-renderer": "^17.0.2",
     "react-toastify": "^4.5.2",
     "redux": "^4.1.2",
+    "typescript": "^4.5.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -37,7 +48,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!@amcharts)/\"",
     "eject": "react-scripts eject",
-    "eslint-check": "eslint --print-config src/App.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config src/App.js | eslint-config-prettier-check",
+    "lint": "npx eslint ./ || exit 0",
+    "fix-lint": "npx eslint ./ --fix || exit 0"
   },
   "eslintConfig": {
     "extends": [
@@ -67,6 +80,7 @@
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.0.0",
+    "eslint-plugin-jsdoc": "^37.0.3",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.20.3",

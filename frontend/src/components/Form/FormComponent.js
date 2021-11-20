@@ -11,10 +11,10 @@ import hexRgb from 'hex-rgb'
 
 /**
  * A Form component for the add box view.
- * @author Jacob Yousif
  *
+ * @author Jacob Yousif
  * @class FormComponent
- * @extends {React.Component}
+ * @augments {React.Component}
  */
 
 class FormComponent extends React.Component {
@@ -184,7 +184,8 @@ class FormComponent extends React.Component {
 /**
  * A function to map the the state to the props of the object.
  *
- * @param {*} state
+ * @param {object} state the current state.
+ * @returns {void}
  */
 const mapStateToProps = (state) => ({
 	update: state.isNewState,

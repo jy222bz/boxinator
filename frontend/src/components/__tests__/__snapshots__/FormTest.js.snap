@@ -58,8 +58,6 @@ exports[`It should match snapshot 1`] = `
         value="Click here to show the Color Picker"
       />
       <br />
-      <br />
-      <br />
       <div
         data-testid="id__div__select"
       >

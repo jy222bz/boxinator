@@ -33,6 +33,7 @@ clone https://github.com/jy222bz/boxinator.git
     - To run the test, run the class `CostCalculatorTests` to execute the tests, the file is located in the Test Folder.
 
 8. #### Further Information:
+   - This application is reasonably small, and the objective is to demonstrate Full Stack Development, REST API Communication, Applying MVC pattern, Clean Code, Unit Testing, Object-Oriented Programming Paradigm, and Utilizing different technologies, frameworks, and libraries.  For the frontend development, the following technologies, libraries, and frameworks were used: React, Axios, Redux, Less, CSS, eslint, Prettier, HTML, and JavaScript. As for the backend development, Java Spring with Maven was used for the development. Lastly, MySQL was utilized for data storage.
    - The solution is documented according to the conventions.
    - The solution follows the MVC pattern.
    - The AddBox View does not provide any type of blue color.
